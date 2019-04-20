@@ -153,7 +153,7 @@ duel:
     start-commands:
       # If set to 'true', the commands listed below will run FOR EACH player at the start of a match.
       # default: false
-      enabled: false
+      enabled: true
 
       # Available placeholders:
       # %player% - Name of the player entering the match
@@ -163,7 +163,7 @@ duel:
     end-commands:
       # If set to 'true', the commands listed below will run at the end of a match.
       # default: false
-      enabled: false
+      enabled: true
 
       # Available placeholders:
       # %winner% - Name of the winner of the match
